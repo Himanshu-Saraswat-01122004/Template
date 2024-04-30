@@ -2,7 +2,6 @@ import express from 'express';
 import { connect } from 'mongoose';
 import bodyParser from 'body-parser';
 
-
 const app = express();
 
 app.set('views', 'views');
